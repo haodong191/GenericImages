@@ -1,6 +1,6 @@
 var Botkit = require('botkit');
 
-if (!process.env.12010145056.692826213313 || !process.env.bde09e9c4dabb1975854c7038e7fe446 || !process.env.3000 || !process.env.wIxaLrOv2ldVyszsGnrVf3Dk) {
+if (!process.env.12010145056.692826213313 || !process.env.bde09e9c4dabb1975854c7038e7fe446 || !process.env.3000 || !process.env.xoxp-12010145056-350663622134-701027281991-951c979a453159709ada00b4aaa98d81) {
     console.log('Error: Specify CLIENT_ID, CLIENT_SECRET, VERIFICATION_TOKEN and PORT in environment');
     process.exit(1);
 }
