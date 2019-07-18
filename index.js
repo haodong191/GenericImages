@@ -40,7 +40,7 @@ controller.setupWebserver(process.env.PORT, function (err, webserver) {
 controller.on('slash_command', function (slashCommand, message) {
 
     switch (message.command) {
-        case "/echo":
+        case "/gimages":
             if (message.token !== process.env.wIxaLrOv2ldVyszsGnrVf3Dk) return; 
             if (message.text === "" || message.text === "help") {
                 slashCommand.replyPrivate(message,
